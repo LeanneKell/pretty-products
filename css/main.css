@@ -15,16 +15,17 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.container {
+ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   flex-direction: row;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
-.container figure {
+ol li {
   display: flex;
   flex-direction: column;
   padding: 1rem;
