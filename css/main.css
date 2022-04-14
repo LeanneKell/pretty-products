@@ -59,12 +59,13 @@ p {
   color: #000;
   font-weight: 500;
   align-items: center;
+  margin: 0 0 auto;
 }
-
 .cart {
+  margin-top: 1.5rem;
   border-radius: 3em;
   background-color: #6f00e7;
-  padding: .5em 1.5em .7em;
+  padding: .25em;
 }
 .cart a {
   color: #fff;
