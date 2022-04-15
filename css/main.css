@@ -14,16 +14,10 @@ body {
 
 img {
   width: 75%;
-  margin: auto 1.5rem;
-  padding: .5em 1.5em .7em;
 }
 
 main {
   padding: 1rem;
-}
-
-div img {
-  width: 13%;
 }
 
 ol {
@@ -39,18 +33,17 @@ ol {
 ol li {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   border: 3px solid #987ffa;
   border-radius: 6px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 h2 {
-  margin: .25em 1.5rem 0;
   font-size: 2rem;
   color: #6f00e7;
   font-weight: bold;
-  align-self: center;
+  padding: 0 1rem;
+  margin: 0 1.5rem;
 }
 
 p {
@@ -58,20 +51,41 @@ p {
   font-size: 1.4rem;
   color: #000;
   font-weight: 500;
-  align-items: center;
-  margin: 0 0 auto;
+  padding: .5em 1.5em .7em;
+  margin: 1.5rem;
 }
 .cart {
-  margin-top: 1.5rem;
   border-radius: 3em;
   background-color: #6f00e7;
+  color: #fff;
+  text-decoration: none;
   padding: .25em;
+  margin: 0 1.5rem;
+  width: 25%;
 }
+
+.cart img {
+  width: 20%;
+}
+
 .cart a {
   color: #fff;
   text-decoration: none;
 }
 
-.button a {
+.share a {
   visibility: hidden;
+}
+
+.share img {
+  width: 5%;
+}
+
+}
+.favourite a {
+  visibility: hidden;
+}
+
+.favourite img {
+  width: 5%;
 }
