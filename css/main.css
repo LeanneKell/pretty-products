@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Open Sans", Oswald, sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 *, *::before, *::after {
@@ -13,11 +13,13 @@ body {
 }
 
 img {
-  width: 50%;
+  width: 75%;
+  padding: .5em 1.5em .7em;
 }
 
 main {
   padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 ol {
@@ -25,17 +27,17 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   flex-direction: row;
-  padding: 0;
-  margin: 0;
+  padding: 0 1rem 1rem;
   list-style-type: none;
+  margin: 0 1.5rem 1.5rem;
 }
 
 ol li {
   border: 3px solid #987ffa;
   border-radius: 6px;
   justify-content: space-between;
-  padding: 1.5rem;
-  margin: .5rem;
+  padding: .25em 1rem 0;
+  margin: .25rem;
 }
 
 .container {
@@ -48,7 +50,8 @@ h2 {
   font-size: 2rem;
   color: #6f00e7;
   font-weight: bold;
-  grid-row: 2;
+  padding-right: 1rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -56,21 +59,26 @@ p {
   font-size: 1.4rem;
   color: #000;
   font-weight: 500;
-  align-self: center;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .cart {
+  display: flex;
   border-radius: 3em;
   background-color: #6f00e7;
   color: #fff;
   text-decoration: none;
   align-self: flex-start;
+  flex-direction: row;
+  padding: .25em 0;
+
 }
 
 .cart a {
   color: #fff;
   text-decoration: none;
-  padding: 0 1rem;
 }
 
 .share a {
@@ -79,4 +87,17 @@ p {
 
 .favourite a {
   visibility: hidden;
+}
+
+.share {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+
+
+.favourite {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
 }
