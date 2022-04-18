@@ -43,6 +43,7 @@ ol li {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 h2 {
@@ -59,8 +60,7 @@ p {
   color: #000;
   font-weight: 500;
   padding-bottom: 1rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 1.5rem auto;
 }
 
 .cart {
@@ -72,11 +72,20 @@ p {
   align-self: flex-start;
   flex-direction: row;
   padding: .25em 0;
+  align-items: center;
+  margin-top: auto;
+}
+
+.cart img {
+  width: 25%;
+  padding: 0;
 }
 
 .cart a {
   color: #fff;
   text-decoration: none;
+  margin: 0 1.5rem;
+  padding: .25em auto;
 }
 
 .share a {
@@ -90,12 +99,20 @@ p {
 .share {
   display: flex;
   flex-direction: row;
-  align-self: flex-end;
+  align-self: stretch;
 }
 
+.share img {
+  width: 20%;
+}
 
 .favourite {
   display: flex;
   flex-direction: row;
-  align-self: flex-end;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.favourite img {
+  width: 20%;
 }
