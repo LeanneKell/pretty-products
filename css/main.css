@@ -80,7 +80,3 @@ li > img {
   padding: 1rem;
   margin: auto 1.5rem;
 }
-
-li a img {
-  align-self: flex-end;
-}
