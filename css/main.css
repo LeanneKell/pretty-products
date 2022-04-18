@@ -43,7 +43,6 @@ ol li {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 h2 {
@@ -73,7 +72,6 @@ p {
   align-self: flex-start;
   flex-direction: row;
   padding: .25em 0;
-
 }
 
 .cart a {
