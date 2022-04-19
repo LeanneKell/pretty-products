@@ -31,26 +31,29 @@ ol > li {
   border: 3px solid #987ffa;
   border-radius: 6px;
   justify-content: space-between;
-  padding: .25em;
-  margin: .25rem;
+  padding: 1rem;
+  margin: 0;
   flex-direction: column;
 }
 
-ol ul {
+.tools {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-between;
-  padding: 0 1rem;
-  margin-bottom: 1.5rem;
+  padding: 0;
+  margin: .25em;
+  align-items: center;
+}
+
+.push {
+  margin-left: auto;
 }
 
 h2 {
   font-size: 2rem;
   color: #6f00e7;
   font-weight: bold;
-  padding-right: 1rem;
-  margin: .25em 1.5rem;
+  margin: auto 1.5rem;
   align-self: center;
 }
 
@@ -59,8 +62,9 @@ p {
   font-size: 1.4rem;
   color: #000;
   font-weight: 500;
-  margin: 0 1.5rem .25em;
-  padding: .25em 1rem ;
+  padding: 0 .25em;
+  margin: 0 .25em 1.5rem;
+  text-align: center;
 }
 
 .btn {
@@ -69,6 +73,7 @@ p {
   color: #fff;
   text-decoration: none;
   padding: .5em 1.5em .7em;
+  margin-top: 1.5rem;
 }
 
 a span {
@@ -79,4 +84,8 @@ a span {
 li > img {
   padding: 1rem;
   margin: auto 1.5rem;
+}
+
+.push a img:first-of-type {
+  padding: .25em;
 }
