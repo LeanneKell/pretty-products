@@ -45,8 +45,8 @@ ol > li {
   align-items: center;
 }
 
-.push {
-  margin-left: auto;
+ul li:first-child {
+  margin-right: auto;
 }
 
 h2 {
