@@ -13,8 +13,8 @@ body {
 }
 
 main {
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+  padding: .25em;
+  margin-bottom: auto;
 }
 
 ol {
@@ -31,7 +31,7 @@ ol > li {
   border: 3px solid #987ffa;
   border-radius: 6px;
   justify-content: space-between;
-  padding: 1rem;
+  padding-bottom: 1rem;
   margin: 0;
   flex-direction: column;
 }
@@ -47,6 +47,10 @@ ol > li {
 
 ul li:first-child {
   margin-right: auto;
+}
+
+ul li:last-child {
+  padding-left: 1rem;
 }
 
 h2 {
@@ -73,7 +77,6 @@ p {
   color: #fff;
   text-decoration: none;
   padding: .5em 1.5em .7em;
-  margin-top: 1.5rem;
 }
 
 a span {
@@ -82,8 +85,10 @@ a span {
 }
 
 li > img {
+  width: 75%;
   padding: 1rem;
   margin: auto 1.5rem;
+  align-self: center;
 }
 
 .push a img:first-of-type {
